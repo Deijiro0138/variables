@@ -1,5 +1,10 @@
 use std::io;
 fn main() {
+    fibonacci_number();
+    
+}
+
+fn fibonacci_number(){
     println!("What is the current temperature?");
     let mut num = String::new();
     io::stdin()
@@ -24,5 +29,4 @@ fn main() {
         pre_fib_1 = fib;
     }
     println!("{}",fib);
-    
 }
